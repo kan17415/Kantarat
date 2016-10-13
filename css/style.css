@@ -1,0 +1,72 @@
+
+    p{
+        color: red;
+    }
+
+    h1{
+      text-align: center;
+      color:white;
+      font-family: verdana,serif;
+    }
+    .colorfront{
+      color white;
+    }
+  .Hello
+    color: rgb(0,0,0);
+  .hfront{
+    font-family: serif;
+    color green;
+  }
+
+a:hover{
+  color:red;
+}
+
+
+
+@keyframes left-right  {
+  0%{left: 0px; opacity: 0;}
+  50%{left: 500px;opacity: 1;}
+  100%{left: -300px;opacity: 0;}
+}
+.color{
+background: linear-gradient(169deg, #08eeb3, #087dee, #ffffff);
+background-size: 600% 600%;
+
+animation: AnimationName 30s ease infinite;
+
+@keyframes AnimationName {
+    0%{background-position:65% 0%}
+    50%{background-position:36% 100%}
+    100%{background-position:65% 0%}
+}
+
+}
+.outerbox{
+  border:1px solid red;
+  display: block;
+}
+.innerbox{
+
+border:1px solid green;
+display: table;
+margin: 0 auto;
+width: 200px;
+}
+.kan{
+text-align: center;
+vertical-align: middle;
+line-height: 90px;
+}
+
+.center{
+ width:350px;
+ height:150px;
+ position:absolute;
+ left:50%;
+ top:50%;
+ margin:-75px 0 0 -135px;
+}
+.font{
+  font weight:bold;
+}
